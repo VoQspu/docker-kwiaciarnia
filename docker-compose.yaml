@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  kwiaciarniaclient:
+      build: https://github.com/VoQspu/kwiaciarniaclient.git
+      ports:
+        - 4200:4200
+      depends_on:
+        - kwiaciarniaserver
+      networks:
+        - default
+  kwiaciarniaserver:
+    build: https://github.com/VoQspu/kwiaciarniaserver.git
+    ports:
+      - 8080:8080
+    networks:
+      - default
+networks:
+  default:
