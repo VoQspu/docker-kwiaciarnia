@@ -1,0 +1,2 @@
+ cd kwiaciarniaclient && npm run-script ng serve
+ cd kwiaciarniaserver && mvn spring-boot:run
