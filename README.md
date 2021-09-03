@@ -1,5 +1,7 @@
 # Florist shop
 
+[![Docker-kwiaciarnia CI](https://github.com/VoQspu/docker-kwiaciarnia/actions/workflows/docker-image.yml/badge.svg)](https://github.com/VoQspu/docker-kwiaciarnia/actions/workflows/docker-image.yml)
+
 ## docker-compose image
 Configuration file for `docker-compose`. To run simply `cd` into directory and use:
 `docker-compose up -d`
